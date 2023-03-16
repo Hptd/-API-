@@ -28,7 +28,7 @@ class ChangchunSchoolGet(object):
         for page in range(1, 20):
             print(f"正在汇总第{page}页信息；")
             parm = {
-                "key": "b2bd95c72479cff1346c4af86e6e7aea",
+                "key": "YOUR-KEY",
                 "keywords": "高等院校",
                 "city": "长春",
                 "citylimit": "true",
